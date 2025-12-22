@@ -1,0 +1,12 @@
+{
+	"claim_your_reward": "Отримайте свою нагороду!",
+	"congratulations": "Вітаємо!",
+	"you_have_10_seconds_tap_to_earn": "У вас лише {seconds} секунд. Натисніть, щоб отримати бонус!",
+	"start": "Почати",
+	"tap_to_earn": "Натисніть, щоб отримати свій бонус",
+	"you_have_10_seconds": "У вас є {seconds} секунд",
+	"time_left": "Залишок часу:",
+	"you_have_to_get_the_bonus": "У вас є {final_seconds}, щоб отримати бонус!",
+	"click_and_claim_your_reward": "Натисніть кнопку нижче, щоб отримати свою нагороду.",
+	"claim_reward": "Отримати нагороду"
+}

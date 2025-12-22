@@ -1,0 +1,12 @@
+{
+	"claim_your_reward": "Igényeld a jutalmad!",
+	"congratulations": "Gratulálunk!",
+	"you_have_10_seconds_tap_to_earn": "Csak {seconds} másodperced van. Koppints a bónuszért!",
+	"start": "Start",
+	"tap_to_earn": "Koppints a bónuszodért",
+	"you_have_10_seconds": "{seconds} másodperced van",
+	"time_left": "Hátralévő idő:",
+	"you_have_to_get_the_bonus": "{final_seconds} áll rendelkezésedre a bónusz megszerzéséhez!",
+	"click_and_claim_your_reward": "Kattints az alábbi gombra, és igényeld a jutalmad.",
+	"claim_reward": "Jutalom igénylése"
+}

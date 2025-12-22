@@ -1,0 +1,144 @@
+<!doctype html>
+<html data-version="production-archive-v0.0.123" data-landing-name="clickbox" lang="">
+
+<head>
+
+    <script>
+    var APP_CONFIG = {
+        "domain": "https://jup9.com",
+        "mainExit_currentTab_zoneId": 10192256,
+        "mainExit_newTab_zoneId": 10192255,
+        "reverse_zoneId": 10192254,
+        "back_zoneId": 10192258,
+        "back_count": 5,
+        "tabUnderClick_zoneId": 10192260,
+        "secondsLeftBeforeFinal": 6
+    };
+</script>
+    <script>"use strict";(()=>{var b=()=>{let t=new Date,a=t.getUTCFullYear(),n=String(t.getUTCMonth()+1).padStart(2,"0"),r=String(t.getUTCDate()).padStart(2,"0"),o=String(t.getUTCHours()).padStart(2,"0"),i=String(t.getUTCMinutes()).padStart(2,"0"),l=String(t.getUTCSeconds()).padStart(2,"0"),c=String(t.getUTCMilliseconds()*1e3).padStart(6,"0");return`${a}-${n}-${r} ${o}:${i}:${l}.${c} +00:00`};function d({url:t,data:a}){var r;return((r=window==null?void 0:window.navigator)==null?void 0:r.sendBeacon(t.toString(),a?JSON.stringify(a):void 0))?Promise.resolve():Promise.reject(new Error("sendBeacon failed"))}var e=new URL(window.location.href),h,v,p,w,f,y,T,P,x,z,E,N,S,D,C,F,I,$,k,s={pz:(h=e.searchParams.get("pz"))!=null?h:"",tb:(v=e.searchParams.get("tb"))!=null?v:"",tb_reverse:(p=e.searchParams.get("tb_reverse"))!=null?p:"",ae:(w=e.searchParams.get("ae"))!=null?w:"",z:(f=e.searchParams.get("z"))!=null?f:"",var:(y=e.searchParams.get("var"))!=null?y:"",var_1:(T=e.searchParams.get("var_1"))!=null?T:"",var_2:(P=e.searchParams.get("var_2"))!=null?P:"",var_3:(x=e.searchParams.get("var_3"))!=null?x:"",b:(z=e.searchParams.get("b"))!=null?z:"",campaignid:(E=e.searchParams.get("campaignid"))!=null?E:"",abtest:(N=e.searchParams.get("abtest"))!=null?N:"",rhd:(S=e.searchParams.get("rhd"))!=null?S:"1",s:(D=e.searchParams.get("s"))!=null?D:"",ymid:(C=e.searchParams.get("ymid"))!=null?C:"",wua:(F=e.searchParams.get("wua"))!=null?F:"",use_full_list_or_browsers:(I=e.searchParams.get("use_full_list_or_browsers"))!=null?I:"",cid:($=e.searchParams.get("cid"))!=null?$:"",geo:(k=e.searchParams.get("geo"))!=null?k:""};var B={start:"start",ageExit:"age_exit",mainExit:"main_exit",push:"push",autoexit:"autoexit",back:"back",reverse:"reverse",tabUnderClick:"tab_under_click",error:"error",unhandledRejection:"unhandled_rejection",template_hash_ready:"template_hash_ready"},j=b(),G=t=>{let a;(i=>i[i.BAD_REQUEST=400]="BAD_REQUEST")(a||(a={}));let n="https://wuytl.com",r=new URL(`${n}/sync-metrics`);d({url:r,data:t}).catch(o=>{o.status!=400&&setTimeout(()=>{d({url:r,data:t}).catch(()=>{console.error(`Metrics sync failed: ${t}`)})},100)})},U=()=>s.abtest?s.abtest:APP_CONFIG.abtest?String(APP_CONFIG.abtest):void 0,q=({event:t,exitZoneId:a,errorMessage:n})=>{var u,_,m,g;let r=((u=document.querySelector("html"))==null?void 0:u.getAttribute("data-landing-name"))||"",o=((_=document.querySelector("html"))==null?void 0:_.getAttribute("data-version"))||"",i=window.location.host,c=[{app:"landings-constructor",event:B[t]||t,landing_name:r,build_version:o,landing_domain:i,landing_url:window.location.href,exit_zone_id:a?Number(a):void 0,template_hash:(m=window.templateHash)!=null?m:"",request_var:s.var_3,source_zone_id:isNaN(Number(s.var_2))?null:Number(s.var_2),sub_id:s.var_1,landing_load_date_time:j,error_message:n!=null?n:"",ab2r:U()}];((g=APP_CONFIG.isAnalyticEnabled)!=null?g:!0)&&G(c)};window.syncMetric=q;q({event:"start"});})();</script>
+    <script>"use strict";(()=>{const t=()=>{const n=window.syncMetric;if(!n){console.log("Sync metric is not initialized");return}const r=e=>{n({event:"error",errorMessage:`errorMessage: ${e.message}, lineNumber: ${e.lineno}, columnNumber: ${e.colno}, file: ${e.filename}`})},o=e=>{n({event:"unhandledRejection",errorMessage:e.reason})};window.addEventListener("error",r),window.addEventListener("unhandledrejection",o)};t();})();</script>
+
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="google" value="notranslate" />
+    <title data-translate="claim_your_reward">Claim Your Reward!</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script defer src="./assets/scripts/common.js"></script>
+    <!-- UNCOMMENT SCRIPTS BELLOW AND COMMENT LINE ABOVE, IF YOU WANT TO CUSTOMIZE FEATURES-->
+    <!--
+        <script type="module" defer src="./assets/scripts/autoexit.js"></script>
+        <script type="module" defer src="./assets/scripts/pushScript.js"></script>
+        <script type="module" defer src="./assets/scripts/reverse.js"></script>
+        <script type="module" defer src="./assets/scripts/main.js"></script>
+        <script type="module" defer src="./assets/scripts/translateElements.js"></script>
+    -->
+</head>
+
+<body>
+    <!-- Section Background -->
+    <section class="background">
+        <div class="background__left">
+            <div class="background__left__top">
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-left-1" src="./assets/images/cloud-left-1.webp" />
+            </div>
+            <div class="background__left__bottom">
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-left-2" src="./assets/images/cloud-left-2.webp" />
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-left-3" src="./assets/images/cloud-left-3.webp" />
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-left-4" src="./assets/images/cloud-left-4.webp" />
+            </div>
+        </div>
+        <div class="background__right">
+            <div class="background__right__top">
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-right-1" src="./assets/images/cloud-right-1.webp" />
+            </div>
+            <div class="background__right__bottom">
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-right-2" src="./assets/images/cloud-right-2.webp" />
+                <img aria-hidden="true" alt="Cloud" class="background__cloud background__cloud-right-3" src="./assets/images/cloud-right-3.webp" />
+            </div>
+        </div>
+        <div class="background__stars">
+            <img aria-hidden="true" alt="Star" class="background__star background__star-1" src="./assets/images/star-five-pointed.webp" />
+            <img aria-hidden="true" alt="Star" class="background__star background__star-2" src="./assets/images/star-five-pointed.webp" />
+            <img aria-hidden="true" alt="Star" class="background__star background__star-3" src="./assets/images/star-five-pointed.webp" />
+            <img aria-hidden="true" alt="Star" class="background__star background__star-4" src="./assets/images/star-five-pointed.webp" />
+            <img aria-hidden="true" alt="Star" class="background__star background__star-5" src="./assets/images/star-five-pointed.webp" />
+            <img aria-hidden="true" alt="Star" class="background__star background__star-6" src="./assets/images/star-four-pointed.webp" />
+        </div>
+    </section>
+
+    <!-- Section Game Clicker -->
+    <section class="game blur">
+        <header class="game__header">
+            <h1 class="game__header__h1" data-translate="tap_to_earn">
+                Tap to earn your bonus
+            </h1>
+            <h3 class="game__header__h3 game__progress__value-header" data-translate="you_have_10_seconds">
+                You have 10 seconds
+            </h3>
+        </header>
+        <main class="game__main">
+            <img aria-hidden="true" alt="Treasure chest" class="game__main__image" src="./assets/images/treasure-chest.webp" />
+            <img aria-hidden="true" alt="Hand" class="game__main__image-hand game__main__image-hand-animation-pulse" src="./assets/images/hand.webp" />
+            <div class="game__main__bonus-container"></div>
+        </main>
+        <footer class="game__footer">
+            <div class="game__progress hidden">
+                <div class="game__progress__bar"></div>
+                <div class="game__progress__text">
+                    <span data-translate="time_left"> Time left: </span>
+                    &nbsp;
+                    <span class="game__progress__value"> 10 </span>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Section Game Clicker: Final Screen -->
+    <section class="game-final-screen hidden">
+        <header class="game__header">
+            <h1 class="game__header__h1" data-translate="congratulations">
+                Congratulations
+            </h1>
+            <p class="game__header__text" data-translate="you_have_to_get_the_bonus">
+                You have 00:01:30 to get the bonus!
+            </p>
+            <h3 class="game__header__h3" data-translate="click_and_claim_your_reward">
+                Click on the button bellow and claim your reward.
+            </h3>
+        </header>
+        <main class="game__main">
+            <img aria-hidden="true" alt="Treasure chest" class="game__main__image" src="./assets/images/treasure-chest.webp" />
+        </main>
+        <footer class="game__footer">
+            <button class="game__button" data-translate="claim_reward">
+                Claim reward
+            </button>
+        </footer>
+    </section>
+
+    <!-- Section Modal -->
+    <section class="modal">
+        <div class="modal__window">
+            <h3 class="modal__window__title" data-translate="congratulations">
+                Congratulations!
+            </h3>
+            <p class="modal__window__text" data-translate="you_have_10_seconds_tap_to_earn">
+                You have only 10 seconds. Tap to earn your bonus!
+            </p>
+            <a class="modal__window__button" href="#" data-translate="start">
+                Start
+            </a>
+        </div>
+    </section>
+
+    <script>"use strict";(()=>{const c=typeof window<"u"&&(window.isSecureContext||window.location.protocol==="https:"||window.location.hostname==="localhost");function a(e){return new Promise((t,n)=>{try{if(!c)return n("this feature is available only in secure contexts (HTTPS)");if(!(crypto!=null&&crypto.subtle.digest))return n("crypto.subtle.digest is not available");const r=new TextEncoder;crypto.subtle.digest("SHA-256",r.encode(e)).then(o=>{const s=Array.from(new Uint8Array(o)).map(i=>i.toString(16).padStart(2,"0")).join("");t(s)}).catch(n)}catch(r){n(r)}})}function d(){const e=[];return performance.getEntriesByType("resource").forEach(t=>{const n=t,r=n.initiatorType==="link"&&n.name.includes(".css"),o=n.initiatorType==="script"&&n.name.includes(".js");(r||o)&&typeof n.decodedBodySize=="number"&&e.push(n.decodedBodySize)}),e.sort(),e.join("-")}function l(e){let t=e;return t=t.replace(/<base.*?>/gm,""),t=t.replace(/var\s+APP_CONFIG\s*=\s*\{[^}]*\};*/gm,""),t=t.replace(/[\r\n]/gm,""),t.trim()}const h=l(document.documentElement.innerHTML);window.templateHash=null;try{document.addEventListener("DOMContentLoaded",()=>{a(JSON.stringify([h,d()])).then(e=>{var t;window.templateHash=e,(t=window.syncMetric)==null||t.call(window,{event:"template_hash_ready"})}).catch(e=>{console.error(`Error getting the template hash in promise: ${e.toString()}`)})})}catch(e){e&&typeof e=="object"&&console.error(`Error getting the template hash: ${e.toString()}`)}})();</script>
+    </body>
+
+</html>
